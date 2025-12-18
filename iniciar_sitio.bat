@@ -1,0 +1,6 @@
+@echo off
+echo Iniciando el sitio web...
+echo Por favor espera...
+cd /d "%~dp0"
+call npm run dev
+pause
