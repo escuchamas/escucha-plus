@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import logoSmall from '../assets/logo-small.png';
 
 const Layout = ({ children }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,11 +21,8 @@ const Layout = ({ children }) => {
       <header className="bg-white shadow-md sticky top-0 z-50">
         <nav className="flex justify-between items-center px-4 md:px-8 py-4 max-w-[1200px] mx-auto">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 font-bold text-2xl text-gray-800 no-underline">
-            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#0093d0] to-[#0077a3] flex items-center justify-center text-white font-bold text-xl">
-              e
-            </div>
-            <span>escucha<span className="text-[#0093d0]">+</span></span>
+          <Link to="/" className="flex items-center gap-2 no-underline">
+            <img src={logoSmall} alt="Escucha+" className="h-12 md:h-14 w-auto" />
           </Link>
 
           {/* Desktop Nav */}
@@ -80,7 +78,7 @@ const Layout = ({ children }) => {
       {/* Footer */}
       <footer className="bg-gray-800 text-white py-8 text-center mt-12">
         <p className="mb-1">&copy; 2025 Escucha+ Centro Auditivo. Todos los derechos reservados.</p>
-        <p className="text-gray-400">Madrid, España | Tel: 912 345 678</p>
+        <p className="text-gray-400">C/ San Roque 10, Avilés (Asturias) | Tel: 985 52 00 54</p>
       </footer>
     </div>
   );

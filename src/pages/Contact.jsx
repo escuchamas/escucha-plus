@@ -121,7 +121,7 @@ const Contact = () => {
                                     </div>
                                     <div>
                                         <h4 className="font-bold text-gray-900 text-lg mb-1">Nuestra Clínica</h4>
-                                        <p className="text-gray-500 leading-relaxed">Calle Principal 123,<br />28001 Madrid, España</p>
+                                        <p className="text-gray-500 leading-relaxed">C/ San Roque 10,<br />33400 Avilés (Asturias)</p>
                                     </div>
                                 </div>
 
@@ -131,7 +131,7 @@ const Contact = () => {
                                     </div>
                                     <div>
                                         <h4 className="font-bold text-gray-900 text-lg mb-1">Teléfono</h4>
-                                        <p className="text-gray-500">912 345 678</p>
+                                        <p className="text-gray-500">985 52 00 54</p>
                                     </div>
                                 </div>
 
