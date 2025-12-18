@@ -22,7 +22,8 @@ const Layout = ({ children }) => {
         <nav className="flex justify-between items-center px-4 md:px-8 py-4 max-w-[1200px] mx-auto">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 no-underline">
-            <img src={logoSmall} alt="Escucha+" className="h-12 md:h-14 w-auto" />
+            <img src={logoSmall} alt="Escucha+" className="h-10 w-auto" />
+            <span className="font-bold text-2xl text-gray-800">escucha<span className="text-[#0093d0]">+</span></span>
           </Link>
 
           {/* Desktop Nav */}
@@ -78,7 +79,7 @@ const Layout = ({ children }) => {
       {/* Footer */}
       <footer className="bg-gray-800 text-white py-8 text-center mt-12">
         <p className="mb-1">&copy; 2025 Escucha+ Centro Auditivo. Todos los derechos reservados.</p>
-        <p className="text-gray-400">C/ San Roque 10, Avilés (Asturias) | Tel: 985 52 00 54</p>
+        <p className="text-gray-400">C/ Martínez Maldonado, 52, Málaga | Tel: 630 712 057 - 952 321 505</p>
       </footer>
     </div>
   );

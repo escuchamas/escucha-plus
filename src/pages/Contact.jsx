@@ -121,7 +121,7 @@ const Contact = () => {
                                     </div>
                                     <div>
                                         <h4 className="font-bold text-gray-900 text-lg mb-1">Nuestra Clínica</h4>
-                                        <p className="text-gray-500 leading-relaxed">C/ San Roque 10,<br />33400 Avilés (Asturias)</p>
+                                        <p className="text-gray-500 leading-relaxed">C/ Martínez Maldonado, 52,<br />29007 Málaga</p>
                                     </div>
                                 </div>
 
@@ -131,7 +131,7 @@ const Contact = () => {
                                     </div>
                                     <div>
                                         <h4 className="font-bold text-gray-900 text-lg mb-1">Teléfono</h4>
-                                        <p className="text-gray-500">985 52 00 54</p>
+                                        <p className="text-gray-500">630 712 057 - 952 321 505</p>
                                     </div>
                                 </div>
 

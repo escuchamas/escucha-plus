@@ -59,7 +59,7 @@ const About = () => {
                 <div className="text-center">
                     <h2 className="title mb-12">Nuestro Equipo</h2>
                     <div className="grid md:grid-cols-3 gap-8">
-                        <TeamMember name="Dra. Ana García" role="Audióloga Principal" />
+                        <TeamMember name="Ana Torregrosa" role="Directora Técnica - Audióloga" />
                         <TeamMember name="Carlos Ruiz" role="Especialista en Audífonos" />
                         <TeamMember name="María López" role="Atención al Paciente" />
                     </div>
